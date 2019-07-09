@@ -18,7 +18,7 @@ ln -s /etc/container_environment.sh /etc/profile.d/
 apt-get install -y systemd
 
 
-## Install the SSH servkkjer.
+## Install the SSH server.
 [ "$DISABLE_SSH" -eq 0 ] && /bd_build/services/sshd/sshd.sh || true
 
 ## Install cron daemon.
