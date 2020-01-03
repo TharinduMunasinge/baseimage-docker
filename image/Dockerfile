@@ -17,4 +17,4 @@ ENV DEBIAN_FRONTEND="teletype" \
     LANGUAGE="en_US:en" \
     LC_ALL="en_US.UTF-8"
 
-CMD ["/sbin/my_init"]
+CMD ["/sbin/init"]
